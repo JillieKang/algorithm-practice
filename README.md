@@ -4,7 +4,7 @@
 
 This repository contains algorithm practice exercises and solutions completed during the SSAFY programme. It documents the process of developing problem-solving skills and strengthening fundamental knowledge of algorithms and data structures through continuous practice.
 
-## Skills Demonstrated
+## Skills Developed
 
 - Algorithm design
 - Problem-solving
