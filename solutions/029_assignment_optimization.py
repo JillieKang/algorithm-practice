@@ -13,6 +13,7 @@ Topic: Backtracking with pruning (assignment optimization)
  
 # depth: 행의 개수
 # branch: 열의 개수
+
 t = int(input())
 for tc in range(1, t+1):
     n = int(input())
