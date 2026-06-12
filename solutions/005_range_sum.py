@@ -1,3 +1,10 @@
+"""
+SWEA 12387
+
+Original title: 배열1_구간합_확인용
+Topic: Maximum range sum
+"""
+
 T = int(input())
  
 for test_case in range(1, T+1):
