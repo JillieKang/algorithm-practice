@@ -1,10 +1,8 @@
 """
 SWEA 12384
 
-Original title:
-배열1_Min_Max_확인용
-
-
+Original title: 배열1_Min_Max_확인용
+Topic: Max-min difference
 """
 
 T = int(input())
