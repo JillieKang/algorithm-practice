@@ -37,7 +37,7 @@ for tc in range(1, t+1):
         if found:
             break
  
-    # checksum validation 실행
+    # 점검: checksum validation
     # 홀수 자리(index 0,2,4,6) * 3 + 짝수 자리(index 1,3,5,7)
     check = 0
     for i in range(8):
