@@ -38,7 +38,7 @@ def quick(lo, hi):
     # i와 j가 교차했다면 그 자리로 pivot을 이동
     # j는 작거나 같은 그룹의 오른쪽끝
     # i는 큰 그룹의 왼쪽끝이므로
-    # arr[j]와 pivot을 서로 바꿔야 함
+    # arr[j]와 pivot을 교체
  
     arr[lo], arr[j] = arr[j], arr[lo]
     quick(lo, j - 1)
