@@ -3,7 +3,6 @@ T = int(input())
 for test_case in range(1, T+1):
     N, M = map(int, input().split())
     ai = list(map(int, input().split()))
-    # 마지막 i의 인덱스는 N-M번
     max_sum = -float('inf')
     min_sum = float('inf')
 
