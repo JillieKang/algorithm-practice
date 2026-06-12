@@ -15,7 +15,9 @@ This repository contains algorithm practice exercises and solutions completed du
 
 ## Reproducibility
 
-You can find the original algorithm problems on [Samsung Software Expert Academy (SWEA)](https://swexpertacademy.com/main/main.do). The code was developed using multiple environments, including Visual Studio Code, PyCharm, and Jupyter Notebook, so you are welcome to explore the solutions using whichever environment you prefer.
+The original problem statements are not included in this repository due to licensing restrictions. However, you can find the original algorithm problems on [Samsung Software Expert Academy (SWEA)](https://swexpertacademy.com/main/main.do). 
+
+The code was developed using multiple environments, including Visual Studio Code, PyCharm, and Jupyter Notebook, so you are welcome to explore the solutions using whichever environment you prefer.
 
 ## Tools
 
