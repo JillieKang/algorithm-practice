@@ -13,7 +13,7 @@ for tc in range(1, t+1):
     left_sum = 0
     min_diff = float('inf')
     best_cut = 0
-    # best cut이 0일때 ~ n-2일 때
+    # best cut이 0일때부터 ~ n-2일 때까지
     for i in range(n-1):
         left_sum += arr[i]
         right_sum = sum(arr) - left_sum
