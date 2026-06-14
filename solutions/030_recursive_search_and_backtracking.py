@@ -16,23 +16,26 @@ Topic: Backtracking and Recursive search
 t = int(input())
 for tc in range(1, t+1):
     lst = list(map(int, input().split()))
-    n = lst[0]  # 5 = 출발점부터 종점까지 갯수
-    stop_lst = lst[1:]  # 출발점부터 종점 - 1까지 배터리 양 정보
+    # 5 = 출발점부터 종점까지 갯수
+    n = lst[0]  
+    # 출발점부터 종점 - 1까지 배터리 양 정보
+    stop_lst = lst[1:] 
     min_time = float('inf')
  
  
     def recur(stop, times):
         global min_time
- 
-        if min_time <= times: # pruning
+
+        # pruning
+        if min_time <= times: 
             return
- 
-        if stop >= n-1:  # 기저조건: 종점에 도착했으면 끝. 종점은 3번
+
+        # 기저조건: 종점에 도착했으면 끝. 종점은 3번
+        if stop >= n-1: 
             min_time = min(min_time, times)
             return
  
         # 시작점(0번)에서 선택할 수 있는 경우의 수 = 1번, 2번
- 
         for i in range(1, stop_lst[stop] + 1):
             recur(stop + i, times + 1)
  
