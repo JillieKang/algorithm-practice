@@ -44,7 +44,6 @@ def quick(lo, hi):
     quick(lo, j - 1)
     quick(j + 1, hi)
  
- 
 t = int(input())
 for tc in range(1, t + 1):
     n = int(input())
