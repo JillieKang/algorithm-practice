@@ -4,6 +4,53 @@
 
 This repository contains algorithm practice exercises and solutions completed during the SSAFY (Samsung Software and AI Academy for Youth) curriculum. It documents the process of developing problem-solving skills and strengthening fundamental knowledge of algorithms and data structures through continuous practice.
 
+## Topics Covered
+
+### Programming Fundamentals
+- Conditional statements
+- For loops
+- Nested loops
+
+### Data Structures
+- Lists and tuples
+- Stacks
+- Queues and deques
+- Trees (binary trees and binary search trees)
+- Graphs (directed, undirected, and weighted)
+
+### Searching
+- Binary search
+- Depth-first search (DFS)
+- Breadth-first search (BFS)
+
+### Sorting
+- Quick sort
+- Bubble sort
+- Merge sort
+
+### Algorithm Design Techniques
+- Divide and Conquer
+- Greedy algorithms
+- Backtracking
+- Backtracking with pruning
+- Exhaustive search
+
+### Implementation Patterns
+- Frequency counting
+- Neighbor traversal
+- Neighbor sum
+- Range sum
+- Max-min difference
+- Grid traversal
+- Grid coloring
+- Character frequency
+- Palindrome check
+- Subsequence check
+- Interval scheduling
+- Greedy matching
+- Binary pattern decoding
+- Simulation
+
 ## Skills Developed
 
 - Algorithm design
