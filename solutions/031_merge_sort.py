@@ -25,11 +25,13 @@ for tc in range(1, t+1):
     right_cnt = 0
  
     def merge_sort(arr):
-        if len(arr) <= 1:   # 기저조건
+        # 기저조건
+        if len(arr) <= 1:   
             return arr
  
         mid = len(arr) // 2
-        left = merge_sort(arr[:mid])    # left에 mid 포함 안 됨
+        # left에 mid 포함 안 됨
+        left = merge_sort(arr[:mid])    
         right = merge_sort(arr[mid:])
  
         # left의 마지막 원소는 n // 2 - 1 번
@@ -40,10 +42,11 @@ for tc in range(1, t+1):
         j = len(right) - 1
  
         global right_cnt
-        # left와 right를 합치자.
+        # left와 right를 합치자
         if left[i] > right[j]:
            right_cnt += 1
-        while i >= 0 and j >= 0:    # i >= 0 일때까지 실행
+        # i >= 0 일때까지 실행
+        while i >= 0 and j >= 0:    
             if right[j] > left[i]:
                 sorted_arr.append(right[j])
                 j -= 1
