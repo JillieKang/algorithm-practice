@@ -6,24 +6,18 @@ This repository contains algorithm practice exercises and solutions completed du
 
 ## Topics Covered
 
-### Programming Fundamentals
-- Conditional statements
-- For loops
-- Nested loops
-
 ### Data Structures
-- Lists and tuples
+- Lists
 - Stacks
-- Queues and deques
-- Trees (binary trees and binary search trees)
-- Graphs (directed, undirected, and weighted)
+- Queues
+- Graphs
 
-### Searching
+### Searching Algorithms
 - Binary search
 - Depth-first search (DFS)
 - Breadth-first search (BFS)
 
-### Sorting
+### Sorting Algorithms
 - Quick sort
 - Bubble sort
 - Merge sort
@@ -31,25 +25,21 @@ This repository contains algorithm practice exercises and solutions completed du
 ### Algorithm Design Techniques
 - Divide and Conquer
 - Greedy algorithms
-- Backtracking
 - Backtracking with pruning
 - Exhaustive search
 
 ### Implementation Patterns
 - Frequency counting
 - Neighbor traversal
-- Neighbor sum
-- Range sum
-- Max-min difference
 - Grid traversal
-- Grid coloring
-- Character frequency
-- Palindrome check
-- Subsequence check
-- Interval scheduling
-- Greedy matching
-- Binary pattern decoding
+- Range aggregation
+- String processing
 - Simulation
+- Stack applications
+- Queue applications
+- Interval scheduling
+- Assignment optimization
+
 
 ## Skills Developed
 
@@ -59,6 +49,7 @@ This repository contains algorithm practice exercises and solutions completed du
 - Computational thinking
 - Code optimization
 - Debugging
+
 
 ## Notes on Original Problems
 
