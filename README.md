@@ -23,10 +23,11 @@ This repository contains algorithm practice exercises and solutions completed du
 - Merge sort
 
 ### Algorithm Design Techniques
-- Divide and Conquer
-- Greedy algorithms
-- Backtracking with pruning
 - Exhaustive search
+- Greedy algorithms
+- Divide and conquer
+- Backtracking with pruning
+- Recursive call
 
 ### Implementation Patterns
 - Frequency counting
